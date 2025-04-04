@@ -23,7 +23,7 @@ An artificial intelligence agent that masters the Snake game using Deep Q-Learni
 
 ## Project Structure
 ### AI_Snake_Game/
-<br> │
+│
 <br> ├── agents.py          # Main training script
 <br> ├── game.py            # Game environment logic
 <br> ├── model.py           # Q-network implementation
