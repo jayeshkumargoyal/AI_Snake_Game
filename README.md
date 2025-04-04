@@ -24,7 +24,6 @@ An artificial intelligence agent that masters the Snake game using Deep Q-Learni
 - Python 3.7+
 - pip package manager
 
-```bash
 # Clone repository
 git clone https://github.com/yourusername/AI_Snake_Game.git
 cd AI_Snake_Game
