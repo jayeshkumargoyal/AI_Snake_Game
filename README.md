@@ -21,20 +21,16 @@ An artificial intelligence agent that masters the Snake game using Deep Q-Learni
 - Python 3.7+
 - pip package manager
 
-# Clone repository
-git clone https://github.com/yourusername/AI_Snake_Game.git
-cd AI_Snake_Game
-
 ## Project Structure
 ### AI_Snake_Game/
-│
-├── agents.py          # Main training script
-├── game.py            # Game environment logic
-├── model.py           # Q-network implementation
-├── helper.py          # Visualization utilities
-├── model/             # Saved models directory
-├── requirements.txt   # Dependency list
-└── README.md          # Project documentation
+<br> │
+<br> ├── agents.py          # Main training script
+<br> ├── game.py            # Game environment logic
+<br> ├── model.py           # Q-network implementation
+<br> ├── helper.py          # Visualization utilities
+<br> ├── model/             # Saved models directory
+<br> ├── requirements.txt   # Dependency list
+<br> └── README.md          # Project documentation
 
 ## How It Works
 ### State Representation
