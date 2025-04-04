@@ -1,32 +1,33 @@
-# 🐍 AI Snake Game
+# 🐍 AI Snake Game - Deep Q-Learning Implementation
 
-A **Snake Game AI** powered by **Deep Q-Learning**, implemented using **PyTorch**. The AI trains itself by learning to predict optimal moves based on the current game state, improving over time and reaching impressive scores within minutes of training.
+[![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?logo=PyTorch&logoColor=white)](https://pytorch.org/)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
----
+An artificial intelligence agent that masters the Snake game using Deep Q-Learning with PyTorch. Achieves competitive performance in just 10 minutes of training.
 
-## 🚀 Features
-- Deep Q-Learning with experience replay
-- Simple feedforward neural network
-- Live training visualization
-- Model saving and loading
-- Fully playable snake environment using Pygame
+![Training Progress](https://via.placeholder.com/600x400?text=Training+Metrics+Visualization) 
+*Replace with actual training visualization*
 
----
+## Features
 
-## 📁 Project Structure
-AI_Snake_Game/ │ ├── agents.py # Main script to train the AI agent ├── game.py # Snake game logic (game environment) ├── model.py # Neural network and Q-learning trainer ├── helper.py # Utility functions for plotting ├── model/ # Directory where trained models are saved └── README.md # Instructions for running the project
+- 🧠 Deep Q-Learning with experience replay
+- 📊 Real-time training metrics dashboard
+- 💾 Auto-saving of best-performing models
+- ⚙️ Customizable hyperparameters
+- 🔄 Dynamic epsilon-greedy exploration
+- ⚡ CUDA acceleration support
 
----
+## Installation
 
-## 🛠️ How to Run
-
-### 1. Prerequisites
-Make sure you have the following installed:
+### Prerequisites
 - Python 3.7+
-- pip (Python package manager)
-
-### 2. Install Dependencies
-Run the following command to install required libraries:
+- pip package manager
 
 ```bash
-pip install pygame matplotlib torch torchvision
+# Clone repository
+git clone https://github.com/yourusername/AI_Snake_Game.git
+cd AI_Snake_Game
+
+# Install dependencies
+pip install -r requirements.txt
