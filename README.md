@@ -29,5 +29,25 @@ An artificial intelligence agent that masters the Snake game using Deep Q-Learni
 git clone https://github.com/yourusername/AI_Snake_Game.git
 cd AI_Snake_Game
 
-# Install dependencies
-pip install -r requirements.txt
+## Project Structure
+###AI_Snake_Game/
+│
+├── agents.py          # Main training script
+├── game.py            # Game environment logic
+├── model.py           # Q-network implementation
+├── helper.py          # Visualization utilities
+├── model/             # Saved models directory
+├── requirements.txt   # Dependency list
+└── README.md          # Project documentation
+
+## How It Works
+##State Representation
+- The AI observes 11-dimensional state space:
+- Current movement direction
+- Relative food position (x, y)
+- Danger detection in 8 directions
+- Body proximity awareness
+
+## Running the Project
+To start training the AI, simply run the agents.py file:
+python agents.py
