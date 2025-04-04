@@ -6,9 +6,6 @@
 
 An artificial intelligence agent that masters the Snake game using Deep Q-Learning with PyTorch. Achieves competitive performance in just 10 minutes of training.
 
-![Training Progress](https://via.placeholder.com/600x400?text=Training+Metrics+Visualization) 
-*Replace with actual training visualization*
-
 ## Features
 
 - 🧠 Deep Q-Learning with experience replay
@@ -29,7 +26,7 @@ git clone https://github.com/yourusername/AI_Snake_Game.git
 cd AI_Snake_Game
 
 ## Project Structure
-###AI_Snake_Game/
+### AI_Snake_Game/
 │
 ├── agents.py          # Main training script
 ├── game.py            # Game environment logic
@@ -40,7 +37,7 @@ cd AI_Snake_Game
 └── README.md          # Project documentation
 
 ## How It Works
-##State Representation
+### State Representation
 - The AI observes 11-dimensional state space:
 - Current movement direction
 - Relative food position (x, y)
@@ -49,4 +46,4 @@ cd AI_Snake_Game
 
 ## Running the Project
 To start training the AI, simply run the agents.py file:
-python agents.py
+<br> python agents.py
